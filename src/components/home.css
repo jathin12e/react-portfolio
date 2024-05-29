@@ -1,0 +1,189 @@
+*{
+    font-family: "Roboto";
+   
+}
+.image{
+   height: 60vh;
+   border-radius: 50%;
+   border: 2px solid #000;
+   padding: 10px;
+   background-color: #000;
+}
+.img1{
+    height: 30px;
+}
+.imga2{
+    height: 50px;
+    margin-left: 15px;
+}
+.home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 80vh;
+
+}
+.Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+.content{
+     margin-left: 30%;
+     margin-top: 15%;
+     
+}
+.button{
+    background-color: transparent;
+    border-color: black;
+    border-radius: 20px;
+    padding: 15px;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.button2{
+    background-color: #000;
+    border-radius: 20px;
+    padding: 15px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-style: solid;
+}
+.button2:hover{
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #fff;
+    color: #000
+}
+.logo{
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo1{
+    height: 7%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+li:hover{
+text-decoration: underline;
+cursor: pointer;
+color: rgb(155, 154, 154);
+}
+.imga2:hover{
+    transform: scale(1.5);
+    
+    transition: all 1s ease;
+}
+
+
+@media (max-width:576px){
+    .image{
+        height: 20vh;
+        border-radius: 50%;
+        border: 2px solid #000;
+        padding: 10px;
+        background-color: #000;
+     }
+     .img1{
+         height: 30px;
+     }
+     .home{
+         display:flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         background-color: #fff;
+         
+     
+     }
+     .Content{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+     .content{
+          margin-left: 10%;
+          margin-top: 15%;
+          
+     }
+     .btn1{
+        display: flex;
+     }
+     .button{
+         background-color: transparent;
+         border-color: black;
+         border-radius: 20px;
+         padding: 15px;
+         color: #000;
+         font-weight: bold;
+         font-size: 14px;
+         cursor: pointer;
+     }
+     .button:hover{
+         background-color: #000;
+         color: #fff;
+     }
+     .button2{
+         background-color: #000;
+         border-radius: 20px;
+         padding: 15px;
+         color:#fff;
+         font-weight: bold;
+         font-size: 14px;
+         margin-left: 10px;
+         cursor: pointer;
+         border-style: solid;
+     }
+     .button2:hover{
+         border-radius: 20px;
+         border-style: solid;
+         background-color: #fff;
+         color: #000
+     }
+     .logo{
+         cursor: pointer;
+         margin-top: 15px;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+     }
+     .logo1{
+         
+         margin-top: 50px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+     li:hover{
+     text-decoration: underline;
+     cursor: pointer;
+     color: rgb(155, 154, 154);
+     }
+     .img2{
+        height: 50px;
+        margin-left: 10px;
+     }
+     .img2:hover{
+         transform: scale(1.5);
+         
+         transition: all 1s ease;
+     }
+}
