@@ -5,6 +5,7 @@
 .image1{
     height: 50vh;
     border-radius: 10px;
+    filter:drop-shadow(20px 7px 20px black);
 }
 .about{
     display: flex;
