@@ -94,7 +94,7 @@ color: rgb(155, 154, 154);
 }
 
 
-@media (max-width:576px){
+@media (max-width:476px){
     .image{
         height: 20vh;
         border-radius: 50%;
@@ -177,9 +177,10 @@ color: rgb(155, 154, 154);
      cursor: pointer;
      color: rgb(155, 154, 154);
      }
-     .img2{
-        height: 50px;
+     .imga2{
+        height: 40px;
         margin-left: 10px;
+        margin-bottom: 10px;
      }
      .img2:hover{
          transform: scale(1.5);

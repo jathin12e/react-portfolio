@@ -5,7 +5,7 @@ import {Link} from 'react-scroll'
 const navbar = () => {
   return (
     <div className='nav'> 
-        <h1>MJ</h1>
+        <h1 className='center'>MJ</h1>
         <ul className='ul'>
             <Link activeClass='active' to="home"  spy={true} smooth={true} offset={-100} duration={500} className='link'><li>Home</li></Link>
             <Link activeClass='active' to="about"  spy={true} smooth={true} offset={-100} duration={500} className='link'><li>About</li></Link>

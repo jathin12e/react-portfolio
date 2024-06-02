@@ -1,5 +1,6 @@
 .bg{
     height: 90vh;
+    
 }
 .image2{
     height: 30vh;
@@ -76,9 +77,9 @@
   color: #000;
 }
 
-@media  (max-width:576px){
+@media  (max-width:476px){
   .bg{
-    margin-top: 30%;
+    margin-top: 40%;
 }
 .image2{
     height: 30vh;

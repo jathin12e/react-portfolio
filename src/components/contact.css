@@ -19,7 +19,7 @@ input{
     justify-content: center;
 }
 
-@media (max-width:576px){
+@media (max-width:476px){
     .bg1{
         margin-top: 100%;
     }

@@ -1,6 +1,6 @@
 .background{
     height: 90vh;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .image1{
     height: 50vh;
@@ -19,7 +19,7 @@
     align-items: center;
     
 }
-@media (max-width:576px){
+@media (max-width:476px){
     
     .image1{
         height: 40vh;
